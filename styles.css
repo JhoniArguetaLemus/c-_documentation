@@ -13,6 +13,7 @@ main{
     display: grid;
     grid-template-columns: 400px 1fr;
     background-color: red;
+    height: 100vh;
 }
 
 .first{
