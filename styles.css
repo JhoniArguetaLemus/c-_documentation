@@ -1,0 +1,68 @@
+
+body{
+    margin: 0;
+}
+
+.page-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+main{
+
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    background-color: red;
+}
+
+.first{
+    background-color: aqua;
+}
+
+.second{
+    background-color: #5585b5;
+    padding: 20px;
+}
+
+ul li{
+    list-style: none;
+    
+}
+
+li>a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media  screen  and (max-width: 576px ) {
+    main{
+        display: flex;
+        flex-direction: column;
+
+        max-width: 400px;
+       
+    }
+
+
+    li>a{
+        color: white;
+    }
+
+    hr{
+
+        height: 2px;
+        color: white;
+    }
+
+
+.first{
+    background-color: #005792;
+    color: white;
+}
+
+
+.second{
+    background-color: #00bbf0;
+    padding: 20px;
+}
+}
